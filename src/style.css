@@ -4,9 +4,10 @@ body {
 
 h1 {
     color: #878787;
+    font-size: 50px;
     display: 24px;
     font-weight: 100;
-    line-height: 28px;
+    line-height: 30px;
     margin-bottom: 0;
 }
 
@@ -14,6 +15,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 li {
     list-style: none;
     color: rgb(135, 135, 135);
@@ -34,10 +36,27 @@ li {
     background-color: #11b6bc;
     display: 24px;
     font-weight: 100;
-    line-height: 28px;
+    line-height: 26px;
     border: #11b6bc;
     margin-bottom: 0;
-    width: 120px;
+    width: 180px;
+}
+.material-symbols-outlined {
+    color: #878787;
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.weather-icon-temp-number {
+    color: #878787;
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.weather-icon-temp-CF {
+    color: #878787;
 }
 
 p {

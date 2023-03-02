@@ -22,40 +22,44 @@
               autofocus="on"
               class="form-control shadow-sm"
               id="weather-form-location"
-              style="height: auto; width: 150%;"
+              style="height: auto; width: 130%;"
               />
               <input type="Submit"
               value="Search"
               class="btn btn-primary"
-              style="position: relative; left: 320px; top: -40px" 
+              style="position: relative; left: 275px; top: -40px" 
               id="submit-btn"
               >
         </form>
       <h1 style="position: relative; right: 190px; top: 70px">
         Toronto
       </h1>
-      <p style="position: relative; left: 110px; top: 30px">
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined" style="position: relative; left: 70px; top: 20px">
           cloudy
-          </span> -2 &#8451; | &#8457;
-      </p>
+          </span>
+          <span class="weather-icon-temp-number" style="position: relative; left: 70px; top: 10px">-2
+          </span>
+      </span>
+      <span class="weather-icon-temp-CF" style="position: relative; left: 53px; top: -20px">&#8451; | &#8457;
+      </span>
+
         <ul>
-          <li style="position: relative; right: 180px; top: 40px">
+          <li style="position: relative; right: -20px; top: 15px">
             Wednesday 18:34
           </li>
-          <li style="position: relative; right: -22px; top: 45px">
+          <li style="position: relative; right: -20px; top: 17px">
             Cloudy
           </li>
         </ul>
         <div style="position: relative; right: 180px; top: 82px">
               <ul>  
-                <li style="position: relative; left: 500px; top: -90px">
+                <li style="position: relative; left: 470px; top: -106px">
                   Precipitation: <span id="precipitation-percentage"></span>
                 </li>
-                <li style="position: relative; left: 500px; top: -88px">
+                <li style="position: relative; left: 470px; top: -104px">
                   Humidity: <span id="humidity-percentage"></span>
                 </li>
-                <li style="position: relative; left: 500px; top: -86px">
+                <li style="position: relative; left: 470px; top: -102px">
                   Wind: <span id="wind-speed"></span>
                 </li>
             </div>
