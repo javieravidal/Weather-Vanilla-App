@@ -22,10 +22,13 @@ li {
     color: rgb(135, 135, 135);
     margin: 0;
     padding: 0;
-    text-transform: capitalize;
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
+}
+
+li:first-letter {
+    text-transform: capitalize;
 }
 
 .weather-app-wrapper {
@@ -35,7 +38,7 @@ li {
 
 .btn-primary {
     color: #ffffff;
-    background-color: #11b6bc;
+    background-color: blue;
     display: 24px;
     font-weight: 100;
     line-height: 26px;
@@ -53,7 +56,6 @@ li {
 .weather-icon-temp-number {
     color: #878787;
     font-size: 55px;
-    line-height: 1;
     font-weight: 400;
 }
 
