@@ -75,6 +75,21 @@ small {
     text-transform: lowercase;
 }
 
+.weather-forecast {
+    color: #878787;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.weather-forecast-temperatures-min {
+    opacity: 0.6;
+}
+
 .Weather-App {
     max-width: 550px;
     margin: 40px auto;
