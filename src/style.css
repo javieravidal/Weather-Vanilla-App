@@ -4,11 +4,12 @@ body {
 
 h1 {
     color: #878787;
-    font-size: 50px;
+    font-size: 40px;
     display: 24px;
     font-weight: 100;
     line-height: 30px;
     margin-bottom: 0;
+    margin-left: 10px;
 }
 
 ul {
@@ -51,7 +52,7 @@ li {
 
 .weather-icon-temp-number {
     color: #878787;
-    font-size: 64px;
+    font-size: 55px;
     line-height: 1;
     font-weight: 400;
 }
