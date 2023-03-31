@@ -90,6 +90,10 @@ small {
     opacity: 0.6;
 }
 
+span {
+    color: #878787;
+}
+
 .Weather-App {
     max-width: 550px;
     margin: 40px auto;
